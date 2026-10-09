@@ -97,3 +97,19 @@ nav button{border:0;background:transparent;color:#155f50;border-radius:10px;padd
 nav button:hover{background:#e1eee9}
 nav button.active{background:#0c5949;color:#fff;border:2px solid #15342e;box-shadow:0 2px 0 rgba(21,52,46,.12)}
 @media(max-width:420px){nav{gap:6px;padding:0}nav button{padding:10px 11px;font-size:13px}}
+
+/* School reporting coverage */
+.school-coverage{background:linear-gradient(145deg,#f9fcfb 0%,#edf5f1 100%);border-color:#a9c5b7}
+.coverage-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:8px}
+.coverage-kpis .kpi{margin:0;background:#fff;border-top-color:#2e846b}
+.coverage-kpis .kpi.alert{border-top-color:#b77935}
+.coverage-kpis .kpi span{display:block;font-weight:800;color:#315f51}
+.coverage-kpis .kpi strong{font-size:28px;margin:10px 0 5px}
+.coverage-kpis .kpi small{display:block;font-size:12px;color:#58776b;line-height:1.7}
+.coverage-breakdown{display:grid;gap:8px;margin-top:15px}
+.coverage-row{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:#fff;border:1px solid #d4e5dc;border-radius:10px;padding:12px 14px;color:#315448}
+.coverage-row b{min-width:240px;color:#183f35}
+.coverage-yes{color:#276b4c;font-weight:800}.coverage-no,.coverage-review{color:#8a5b22;font-weight:800}
+#ticketRegisterSource{display:block;margin-top:5px}
+@media(max-width:900px){.coverage-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:420px){.coverage-kpis{grid-template-columns:1fr}.coverage-row{gap:8px}.coverage-row b{min-width:100%}}
