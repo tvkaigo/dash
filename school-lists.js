@@ -1,7 +1,7 @@
 let schoolLists=[],listState={},selectedListRows={};
 const listStatus={yes:'رفعت بلاغات',no:'لم ترفع بلاغات'};
 const originalShowTab=showTab;
-showTab=function(id){originalShowTab(id);document.querySelector('.filters').hidden=true;document.querySelector('.resultline').hidden=false;$('kpis').hidden=false;};
+showTab=function(id){originalShowTab(id);document.querySelector('.filters').hidden=true;document.querySelector('.resultline').hidden=false;$('kpis').hidden=true;};
 function schoolsInDateRange(rows,from,to){
  const periodFrom=from||'2026-08-11',periodTo=to||'2026-09-28';
  const byId=new Map(all.map(r=>[r['Case ID'],r]));
