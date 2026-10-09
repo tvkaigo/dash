@@ -113,3 +113,14 @@ nav button.active{background:#0c5949;color:#fff;border:2px solid #15342e;box-sha
 #ticketRegisterSource{display:block;margin-top:5px}
 @media(max-width:900px){.coverage-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:420px){.coverage-kpis{grid-template-columns:1fr}.coverage-row{gap:8px}.coverage-row b{min-width:100%}}
+
+/* هدوء أخضر وتباين واضح لبطاقة تغطية المدارس وبقية بطاقات العرض */
+.school-coverage{background:linear-gradient(145deg,#dceee6 0%,#bdd9cb 100%);border-color:#79aa97;box-shadow:0 12px 28px rgba(20,83,67,.14)}
+.school-coverage>.sectionline{background:linear-gradient(135deg,#0b5949 0%,#277d65 100%);padding:16px 18px;border-radius:12px;margin:-4px -4px 18px;box-shadow:0 5px 14px rgba(13,75,60,.18)}
+.school-coverage>.sectionline h2{color:#fff}
+.school-coverage>.sectionline .hint,.school-coverage>.sectionline #schoolCoverageMeta{color:#e8f6ef!important}
+.school-coverage .coverage-kpis{background:rgba(255,255,255,.34);border:1px solid rgba(255,255,255,.72);border-radius:14px;padding:12px}
+.school-coverage .coverage-kpis .kpi{background:rgba(255,255,255,.96);border-color:#a9cbbd;box-shadow:0 4px 12px rgba(24,83,67,.09)}
+.school-coverage .coverage-kpis .kpi strong{color:#123f35}
+#overview .charts>article:not(.school-coverage){border-color:#b7d1c4;box-shadow:0 8px 20px rgba(24,83,67,.08)}
+#overview .charts>article:not(.school-coverage) h2{padding-bottom:10px;border-bottom:1px solid #d9e9e1}
