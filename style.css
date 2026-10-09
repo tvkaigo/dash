@@ -127,3 +127,8 @@ nav button.active{background:#0c5949;color:#fff;border:2px solid #15342e;box-sha
 .sla-badge{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;border-radius:999px;padding:4px 8px;background:#edf5f1;color:#2c6e5a;font-weight:700}
 .sla-breach{background:#fff0dc;color:#9a571d;border:1px solid #e3b578}
 .sla-icon{font-size:13px;line-height:1}
+
+/* تباين أغمق قليلًا لبطاقات مؤشرات المدارس مع الحفاظ على هدوء اللوحة */
+.school-coverage .coverage-kpis .kpi{background:linear-gradient(145deg,#e6f2ec 0%,#d7e9e0 100%);border-color:#8fbbaa;box-shadow:0 5px 14px rgba(24,83,67,.14)}
+.school-coverage .coverage-kpis .kpi strong{color:#0d4035}
+
