@@ -132,3 +132,10 @@ nav button.active{background:#0c5949;color:#fff;border:2px solid #15342e;box-sha
 .school-coverage .coverage-kpis .kpi{background:linear-gradient(145deg,#e6f2ec 0%,#d7e9e0 100%);border-color:#8fbbaa;box-shadow:0 5px 14px rgba(24,83,67,.14)}
 .school-coverage .coverage-kpis .kpi strong{color:#0d4035}
 
+/* تباين بطاقات مؤشرات صفحات القائمتين */
+.list-kpis .kpi{position:relative;overflow:hidden;background:linear-gradient(145deg,#e4f1eb 0%,#d4e8dd 100%);border-color:#8fbbaa;border-top-color:#277d65;box-shadow:0 5px 14px rgba(24,83,67,.12)}
+.list-kpis .kpi:nth-child(2){background:linear-gradient(145deg,#e1eef0 0%,#d2e4e6 100%);border-color:#8eafb2;border-top-color:#2f7180}
+.list-kpis .kpi:nth-child(3){background:linear-gradient(145deg,#f0ede2 0%,#e7dfcc 100%);border-color:#c4b58f;border-top-color:#a06c2d}
+.list-kpis .kpi::after{content:"";position:absolute;left:-22px;bottom:-30px;width:92px;height:92px;border-radius:50%;background:rgba(255,255,255,.24);pointer-events:none}
+.list-kpis .kpi strong{color:#123f35}
+
